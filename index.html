@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign in landing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header> 
+        <h1>Creative Tech</h1>
+        <img class="F"  src="photo.png" alt="man"/>
+        <img class="g" src="Vector.svg" alt="svg"/>
+    </header>
+    <div> 
+        <h2>Log in</h2>
+        <p class="f">Log in with your data that you entered during your registration</p>
+        <h3 class="g">Enter your email address</h3>
+        <input id="email" type="text" value="name@example.com">
+        
+        <h3 class="password">Enter your password
+        <input id="password-input" name="password" type="password" value="atleast 8 characters">
+        <img class="eye" src="Vector_eye.svg" alt="eye" onclick="return show_hide_password(this);"></h3>
+        
+        <button  type="submit" class="button">Log in</button>
+         <label class="container" for="checkbox">Use password for logging into my account
+            <input type="checkbox" name="checkbox" id="checkbox">
+            <span class="checkmark"></span>
+       </label>
+       <a href="#ddd"> <p class="k" >Forget password?</p></a>
+       <button id="ddd" type="submit" class="button_2">Sign up now</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
